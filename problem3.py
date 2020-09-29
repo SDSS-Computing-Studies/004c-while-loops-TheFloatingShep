@@ -20,4 +20,5 @@ while n < 100:
     n = n + a
     a = x
     x = n
-    print(n)
+    if n < 100:
+        print(n)
