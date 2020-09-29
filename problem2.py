@@ -15,3 +15,8 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+joe = 1
+n = int(input("Enter a number\n"))
+while joe <= 12:
+    print(n * joe, end=" ")
+    joe += 1
