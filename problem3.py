@@ -15,10 +15,9 @@ Example:
 """
 n = 1
 a = 0
-x = 0
+x = 1
 while n < 100:
+    print(n, end=" ")
     n = n + a
     a = x
     x = n
-    if n < 100:
-        print(n)

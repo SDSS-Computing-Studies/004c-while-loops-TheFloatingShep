@@ -18,8 +18,8 @@ Access denied
 user = ""
 pas = ""
 while user != "admin" or pas != "12345":
-    user = input("Input username\n")
-    pas = input("Input password\n")
+    user = input("Input username\n").strip()
+    pas = input("Input password\n").strip()
     if user != "admin" or pas != "12345":
         print("Access denied")
     else:
