@@ -21,7 +21,7 @@ That is an even integer
 """
 n = 1
 while n % 2 != 0:
-    n = float(input("\n"))
+    n = float(input())
     if n % 2 != 0:
         print("That is not an even integer")
     else:
