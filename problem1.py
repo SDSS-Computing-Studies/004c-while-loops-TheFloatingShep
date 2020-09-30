@@ -25,7 +25,7 @@ while n <= 3 and (user != "admin" or pas != "12345"):
     pas = input("Input password\n").strip()
     n += 1
     if user != "admin" or pas != "12345":
-        print("Access denied")
+        print("Access denied.")
     else:
-        print("Access granted")
+        print("Access granted.")
         break
