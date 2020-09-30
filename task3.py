@@ -23,6 +23,6 @@ n = 1
 while n % 2 != 0:
     n = float(input("Enter a number\n"))
     if n % 2 != 0:
-        print("That is not an even integer")
+        print("That is not an even integer.")
     else:
-        print("That is an even integer")
+        print("That is an even integer.")
